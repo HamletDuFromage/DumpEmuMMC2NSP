@@ -2,7 +2,7 @@
 
 A detailed guide on how to dump titles located on emuMMC to NSP. Useful to backup an entire library in one go.
 
-It implants the SYSTEM partiton (which contains import title data) of an emuMMC to a sysMMC so games games can be dumped with SDSwitchTool.
+It implants the SYSTEM partiton (which contains import title data) of an emuMMC to a sysMMC so games can be dumped with SDSwitchTool.
 
 ## Requirements
 - NxNandManager : https://github.com/eliboa/NxNandManager
