@@ -27,7 +27,7 @@ It implants the SYSTEM partiton (which contains import title data) of an emuMMC 
 5. Scroll down to the SYSTEM partiton, right click it and select "Dump to file".
 6. Save the SYSTEM partiton somewhere handy. 
 
-### Patching the SysNAND with the SYSTEM partiton
+### Patching the sysNAND with the SYSTEM partiton
 1. Open NxNandManager then open file (CTRL + O). 
 2. Go to your sysNAND backup folder and open rawnan.bin or rawnand.bin.00.
 3. Scroll down to SYSTEM, right click and select "Restore from file".
@@ -59,12 +59,12 @@ Double click on SYSTEM.
 2. Cut the emuMMC "Nintendo" folder (typically located in \emuMMC\RAW1) and paste it at the root of your SD card.
 
 #### Setup SwitchSDTool
-1. Copy prod.keys in to where you extracted SwitchSDTool and rename it to "keys.txt".
+1. Copy prod.keys to the folder where you extracted SwitchSDTool, and rename it to "keys.txt".
 2. Open SwitchSDTool (f it returns an error, make sure .NET Framework 4.7.1 is installed).
 3. Click on "Select SD Folder". Choose the Drive that the SD is mounted to.
 4. Click on "Select System Path". Choose the drive letter you mounted the SYSTEM partition on. (A: drive by default).
-5. Click on "Select Decryption Path". Choose where you want the decrypted NCAs to be (creating a new NCA folder is recommended).
-6. Click on "Select NSP Output Path". Choose where you want your NSP dumps to be saved(creating a new NSP folder is recommended).
+5. Click on "Select Decryption Path". Choose where you want the decrypted NCAs to be (creating a new "NCA" folder is recommended).
+6. Click on "Select NSP Output Path". Choose where you want your NSP dumps to be saved(creating a new "NSP" folder is recommended).
 7. Get the "eticket_rsa_kek" value (Google it if you don't have it in keys.txt).
 8. Click on "Find SD Key". The log should say "SD Key Loaded".
 9. Click on "Load RSA KEK". The log should say "RSA Key extracted successfully from PRODINFO.bin".
@@ -81,7 +81,7 @@ Double click on SYSTEM.
 1. Close SwitchSDTool.
 2. In HacDiskMount, unmount the SYSTEM partiton and close the software.
 3. Cut the emuNAND "Nintendo" folder at the root of your SD to its original location (\emuMMC\RAW1).
-4. Rename your original Nintendo to "Nintendo".
+4. Rename your original Nintendo folder to "Nintendo".
 5. Eject your SD card, plug it into your Switch .
 
 
