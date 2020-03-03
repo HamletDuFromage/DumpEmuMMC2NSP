@@ -71,7 +71,7 @@ Double click on SYSTEM.
 
 ### Extracting NCAs and dumping NSPs
 1. Click on "Extract Tickets". The log should say "Dumping Tickets" followed shortly by "Done. n Tickets dumped".
-2. Click on "Decrypt NCAs". The log should show a bunch of "Processing --file--.nca - Decrypting, Done. Verifying, Verified (may also start with Joining, Done).
+2. Click on "Decrypt NCAs". The log should show a bunch of "Processing --file--.nca - Decrypting, Done. Verifying, Verified" (may also start with Joining, Done).
 3. Click on the Games Tab, then Click on "Parse NCAs".  After it is done parsin, all of your games present on the SD card should be listed, along with any update and DLC.
 4. Click on your preferred language, and move it to the top by clicking on "Move Up". Order them by preference, the preferred ones being on top.
 5. Click on "Pack ALL NSPs" to pack everything. To select one or more games, click on "Pack Selected NSP" to only pack your selection of NSPs.
